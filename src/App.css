@@ -1,0 +1,36 @@
+.matrix-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-heading {
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.matrix {
+  display: grid;
+  grid-template-columns: repeat(3, 130px);
+  grid-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 20px;
+  width: 130px;
+  height: 130px;
+  border: 2px solid black;
+  cursor: pointer;
+}
